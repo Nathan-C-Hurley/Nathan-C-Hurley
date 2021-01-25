@@ -18,6 +18,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+$google-scholar-color: #4788ee;
+$icon-transition-time: 1.0s;
+
 .icon-twitter:before     { content: "\e602"; }
 .icon-facebook:before    { content: "\e603"; }
 .icon-github:before      { content: "\e600"; }
@@ -30,4 +33,9 @@
 .icon-behance:before     { content: "\e607"; }
 .icon-soundcloud:before  { content: "\e606"; }
 .icon-vine:before        { content: "\e60a"; }
-.icon-scholar:before     { content: "\e9d4"; }
+//.icon-scholar:before     { content: "\e9d4"; }
+.ai-google-scholar {
+  padding: 5px;
+  @include social-media-icon($google-scholar-color, $icon-transition-time);
+}
+
