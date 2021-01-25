@@ -6,10 +6,11 @@
     <div class="social-media">
       <nav>
         {% for item in site.data.settings.social %}
-          <a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-        {% endfor %}
-        {% for item in site.data.settings.academic %}
-          <a href="{{ item.link }}" target="_blank"><i class="ai ai-{{ item.icon }}" aria-hidden="true"></i></a>
+          {% if item.icon == 'researchgate' or item.icon == 'google-scholar' %}
+            <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="ai ai-{{ item.icon }}" aria-hidden="true"></i></a>
+          {% else %}
+            <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+          {% endif %}
         {% endfor %}
       </nav>
     </div>
