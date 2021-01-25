@@ -70,7 +70,7 @@ social:
 - {icon: 'envelope', link: 'mailto:nathan@hurley.icu'}
 
 academic:
-- {icon: 'google-scholar', link: '#'}
+- {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=8nHGeIMAAAAJ&hl=en'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
