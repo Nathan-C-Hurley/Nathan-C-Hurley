@@ -69,6 +69,8 @@ social:
 #- {icon: 'linkedin', link: '#'}
 - {icon: 'envelope', link: 'mailto:nathan@hurley.icu'}
 - {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=8nHGeIMAAAAJ&hl=en'}
+- {icon: 'building', link: 'https://stmi.engr.tamu.edu/people/nate-hurley/'}
+- {icon: 'arxiv', link: 'https://arxiv.org/a/hurley_n_1.html'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
