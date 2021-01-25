@@ -66,8 +66,11 @@ social:
 #- {icon: 'twitter', link: '#'}
 #- {icon: 'instagram', link: '#'}
 - {icon: 'github', link: 'https://github.com/Nathan-C-Hurley'}
-- {icon: 'scholar', link: '#'}
 #- {icon: 'linkedin', link: '#'}
 - {icon: 'envelope', link: 'mailto:nathan@hurley.icu'}
+
+academic:
+- {icon: 'scholar', link: '#'}
+
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

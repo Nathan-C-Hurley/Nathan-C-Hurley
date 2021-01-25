@@ -8,6 +8,9 @@
         {% for item in site.data.settings.social %}
           <a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
         {% endfor %}
+        {% for item in site.data.settings.academic %}
+          <a href="{{ item.link }}" target="_blank"><i class="ai ai-{{ item.icon }}" aria-hidden="true"></i></a>
+        {% endfor %}
       </nav>
     </div>
   </div>
