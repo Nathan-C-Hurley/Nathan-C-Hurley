@@ -34,7 +34,7 @@ seo:
 # Change to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'thathungrymind'
+  disqus_shortname: ''
 
 #-------------------------------
 # About Section
@@ -63,10 +63,10 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: '#'}
-- {icon: 'instagram', link: '#'}
-- {icon: 'github', link: '#'}
-- {icon: 'linkedin', link: '#'}
-- {icon: 'envelope', link: 'mailto:#'}
+#- {icon: 'twitter', link: '#'}
+#- {icon: 'instagram', link: '#'}
+- {icon: 'github', link: 'https://github.com/Nathan-C-Hurley'}
+#- {icon: 'linkedin', link: '#'}
+- {icon: 'envelope', link: 'mailto:nathan@hurley.icu'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
